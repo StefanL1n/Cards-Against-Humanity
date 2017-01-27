@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E994551E3B014C00C32050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E994541E3B014C00C32050 /* AppDelegate.swift */; };
+		18E994571E3B014C00C32050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E994561E3B014C00C32050 /* ViewController.swift */; };
+		18E9945A1E3B014C00C32050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E994581E3B014C00C32050 /* Main.storyboard */; };
+		18E9945C1E3B014C00C32050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9945B1E3B014C00C32050 /* Assets.xcassets */; };
+		18E9945F1E3B014C00C32050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9945D1E3B014C00C32050 /* LaunchScreen.storyboard */; };
+		18E9946A1E3B014C00C32050 /* Cards_Against_humanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E994691E3B014C00C32050 /* Cards_Against_humanityTests.swift */; };
+		18E994751E3B014C00C32050 /* Cards_Against_humanityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E994741E3B014C00C32050 /* Cards_Against_humanityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E994661E3B014C00C32050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E994491E3B014C00C32050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E994501E3B014C00C32050;
+			remoteInfo = "Cards Against humanity";
+		};
+		18E994711E3B014C00C32050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E994491E3B014C00C32050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E994501E3B014C00C32050;
+			remoteInfo = "Cards Against humanity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E994511E3B014C00C32050 /* Cards Against humanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards Against humanity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E994541E3B014C00C32050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E994561E3B014C00C32050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E994591E3B014C00C32050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E9945B1E3B014C00C32050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E9945E1E3B014C00C32050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E994601E3B014C00C32050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E994651E3B014C00C32050 /* Cards Against humanityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards Against humanityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E994691E3B014C00C32050 /* Cards_Against_humanityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_Against_humanityTests.swift; sourceTree = "<group>"; };
+		18E9946B1E3B014C00C32050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E994701E3B014C00C32050 /* Cards Against humanityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards Against humanityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E994741E3B014C00C32050 /* Cards_Against_humanityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_Against_humanityUITests.swift; sourceTree = "<group>"; };
+		18E994761E3B014C00C32050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E9944E1E3B014C00C32050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E994621E3B014C00C32050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9946D1E3B014C00C32050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E994481E3B014C00C32050 = {
+			isa = PBXGroup;
+			children = (
+				18E994531E3B014C00C32050 /* Cards Against humanity */,
+				18E994681E3B014C00C32050 /* Cards Against humanityTests */,
+				18E994731E3B014C00C32050 /* Cards Against humanityUITests */,
+				18E994521E3B014C00C32050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E994521E3B014C00C32050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E994511E3B014C00C32050 /* Cards Against humanity.app */,
+				18E994651E3B014C00C32050 /* Cards Against humanityTests.xctest */,
+				18E994701E3B014C00C32050 /* Cards Against humanityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E994531E3B014C00C32050 /* Cards Against humanity */ = {
+			isa = PBXGroup;
+			children = (
+				18E994541E3B014C00C32050 /* AppDelegate.swift */,
+				18E994561E3B014C00C32050 /* ViewController.swift */,
+				18E994581E3B014C00C32050 /* Main.storyboard */,
+				18E9945B1E3B014C00C32050 /* Assets.xcassets */,
+				18E9945D1E3B014C00C32050 /* LaunchScreen.storyboard */,
+				18E994601E3B014C00C32050 /* Info.plist */,
+			);
+			path = "Cards Against humanity";
+			sourceTree = "<group>";
+		};
+		18E994681E3B014C00C32050 /* Cards Against humanityTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E994691E3B014C00C32050 /* Cards_Against_humanityTests.swift */,
+				18E9946B1E3B014C00C32050 /* Info.plist */,
+			);
+			path = "Cards Against humanityTests";
+			sourceTree = "<group>";
+		};
+		18E994731E3B014C00C32050 /* Cards Against humanityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E994741E3B014C00C32050 /* Cards_Against_humanityUITests.swift */,
+				18E994761E3B014C00C32050 /* Info.plist */,
+			);
+			path = "Cards Against humanityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E994501E3B014C00C32050 /* Cards Against humanity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E994791E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanity" */;
+			buildPhases = (
+				18E9944D1E3B014C00C32050 /* Sources */,
+				18E9944E1E3B014C00C32050 /* Frameworks */,
+				18E9944F1E3B014C00C32050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cards Against humanity";
+			productName = "Cards Against humanity";
+			productReference = 18E994511E3B014C00C32050 /* Cards Against humanity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E994641E3B014C00C32050 /* Cards Against humanityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E9947C1E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanityTests" */;
+			buildPhases = (
+				18E994611E3B014C00C32050 /* Sources */,
+				18E994621E3B014C00C32050 /* Frameworks */,
+				18E994631E3B014C00C32050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E994671E3B014C00C32050 /* PBXTargetDependency */,
+			);
+			name = "Cards Against humanityTests";
+			productName = "Cards Against humanityTests";
+			productReference = 18E994651E3B014C00C32050 /* Cards Against humanityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E9946F1E3B014C00C32050 /* Cards Against humanityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E9947F1E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanityUITests" */;
+			buildPhases = (
+				18E9946C1E3B014C00C32050 /* Sources */,
+				18E9946D1E3B014C00C32050 /* Frameworks */,
+				18E9946E1E3B014C00C32050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E994721E3B014C00C32050 /* PBXTargetDependency */,
+			);
+			name = "Cards Against humanityUITests";
+			productName = "Cards Against humanityUITests";
+			productReference = 18E994701E3B014C00C32050 /* Cards Against humanityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E994491E3B014C00C32050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Haoyu Lin";
+				TargetAttributes = {
+					18E994501E3B014C00C32050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGSN6HN29A;
+						ProvisioningStyle = Automatic;
+					};
+					18E994641E3B014C00C32050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGSN6HN29A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E994501E3B014C00C32050;
+					};
+					18E9946F1E3B014C00C32050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGSN6HN29A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E994501E3B014C00C32050;
+					};
+				};
+			};
+			buildConfigurationList = 18E9944C1E3B014C00C32050 /* Build configuration list for PBXProject "Cards Against humanity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E994481E3B014C00C32050;
+			productRefGroup = 18E994521E3B014C00C32050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E994501E3B014C00C32050 /* Cards Against humanity */,
+				18E994641E3B014C00C32050 /* Cards Against humanityTests */,
+				18E9946F1E3B014C00C32050 /* Cards Against humanityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E9944F1E3B014C00C32050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E9945F1E3B014C00C32050 /* LaunchScreen.storyboard in Resources */,
+				18E9945C1E3B014C00C32050 /* Assets.xcassets in Resources */,
+				18E9945A1E3B014C00C32050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E994631E3B014C00C32050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9946E1E3B014C00C32050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E9944D1E3B014C00C32050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E994571E3B014C00C32050 /* ViewController.swift in Sources */,
+				18E994551E3B014C00C32050 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E994611E3B014C00C32050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E9946A1E3B014C00C32050 /* Cards_Against_humanityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9946C1E3B014C00C32050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E994751E3B014C00C32050 /* Cards_Against_humanityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E994671E3B014C00C32050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E994501E3B014C00C32050 /* Cards Against humanity */;
+			targetProxy = 18E994661E3B014C00C32050 /* PBXContainerItemProxy */;
+		};
+		18E994721E3B014C00C32050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E994501E3B014C00C32050 /* Cards Against humanity */;
+			targetProxy = 18E994711E3B014C00C32050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E994581E3B014C00C32050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E994591E3B014C00C32050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E9945D1E3B014C00C32050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E9945E1E3B014C00C32050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E994771E3B014C00C32050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E994781E3B014C00C32050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E9947A1E3B014C00C32050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18E9947B1E3B014C00C32050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18E9947D1E3B014C00C32050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards Against humanity.app/Cards Against humanity";
+			};
+			name = Debug;
+		};
+		18E9947E1E3B014C00C32050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards Against humanity.app/Cards Against humanity";
+			};
+			name = Release;
+		};
+		18E994801E3B014C00C32050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cards Against humanity";
+			};
+			name = Debug;
+		};
+		18E994811E3B014C00C32050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YGSN6HN29A;
+				INFOPLIST_FILE = "Cards Against humanityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haoyu-Lin.Cards-Against-humanityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cards Against humanity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E9944C1E3B014C00C32050 /* Build configuration list for PBXProject "Cards Against humanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E994771E3B014C00C32050 /* Debug */,
+				18E994781E3B014C00C32050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E994791E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E9947A1E3B014C00C32050 /* Debug */,
+				18E9947B1E3B014C00C32050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E9947C1E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E9947D1E3B014C00C32050 /* Debug */,
+				18E9947E1E3B014C00C32050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E9947F1E3B014C00C32050 /* Build configuration list for PBXNativeTarget "Cards Against humanityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E994801E3B014C00C32050 /* Debug */,
+				18E994811E3B014C00C32050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E994491E3B014C00C32050 /* Project object */;
+}
